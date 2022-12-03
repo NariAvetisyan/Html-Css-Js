@@ -1,0 +1,19 @@
+shift+! = sarquma html naxnakan kod@
+CTR+X-ktruma
+CTR+C
+CTR+v
+CTR+F
+
+
+
+CSS
+body{
+
+}
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
