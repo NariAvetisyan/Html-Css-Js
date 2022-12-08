@@ -1,58 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/3.jpg);
+    background-position: 90%;
+    background-size: cover;
     box-sizing: border-box;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display:flex ;
+    align-items: center;
+}
+.logo {
+    width: 250px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.cart {
+    width: 200px;
+    cursor: pointer;
+    margin:auto;
+    position: relative;
+
+}
+ nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 3px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+.content h1 {
+    font-size: 60px;
+    font-weight:100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+
+}
+.content p {
+    font-size: 20px;
+    color: #6a7199;
 }
 
-
-body{
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Roboto Mono', monospace;
+.content{
+    margin-left: 10%;
+    margin-top: 10%;;
 }
-
-p{
-    color: red;
+.content.btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe,#ff7cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
 }
-
-
-
-
-.menu{
-    background-color: #34CBC2;
-}
-
-.menu_div{
-    justify-content: start;
+.arrow-icons {
+    position: relative;
+    top: 20%;
     display: flex;
+    justify-content: space-between;
 }
-
-.glxavor_nav > span{
-    font-size: 40px;
-    color: white;
+.arrow-icons > img {
+    width: 180px;
+    height: 180px;
 }
-
-.glxavor_nav > a{
-    color: white;
-    text-decoration-line: none;
+.feature-img {
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 250px;
 }
-.glxavor_nav > a:hover{
-    color: red;
-    font-size: 100px;
-    transition: 0.5s;
+.social-links {
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-80px;
+    bottom: 180px;
 }
-
-
-
-
-
-#vernagrer{
-    background-color: green;
+.social-links a {
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
 }
-
-
 

@@ -1,11 +1,11 @@
-shift+! = sarquma html naxnakan kod@
+shift+! heto Tab = sarquma html naxnakan kod@
 CTR+X-ktruma
 CTR+C
 CTR+v
 CTR+F
 
 
-
+ctr / = cmment
 CSS
 body{
 
